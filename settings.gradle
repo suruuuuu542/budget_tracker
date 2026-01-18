@@ -1,0 +1,2 @@
+rootProject.name = "budget_tracker"
+include ':app'
