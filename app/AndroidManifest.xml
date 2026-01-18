@@ -1,0 +1,18 @@
+<manifest package="com.budget.tracker"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:label="budget_tracker"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+
+        <activity android:name=".AddExpenseActivity"/>
+        <activity android:name=".AddIncomeActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+    </application>
+</manifest>
