@@ -1,0 +1,23 @@
+budget_tracker/
+├── app/
+│   ├── src/main/
+│   │   ├── AndroidManifest.xml
+│   │   ├── java/com/budget/tracker/
+│   │   │   ├── MainActivity.kt
+│   │   │   ├── AddIncomeActivity.kt
+│   │   │   ├── AddExpenseActivity.kt
+│   │   │   └── utils/CurrencyUtils.kt
+│   │   └── res/
+│   │       ├── layout/
+│   │       │   ├── activity_main.xml
+│   │       │   ├── activity_add_income.xml
+│   │       │   └── activity_add_expense.xml
+│   │       └── values/
+│   │           ├── colors.xml
+│   │           └── themes.xml
+│   └── build.gradle
+├── build.gradle
+├── settings.gradle
+├── gradlew
+├── gradlew.bat
+└── .gitignore
